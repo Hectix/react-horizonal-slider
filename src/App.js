@@ -1,16 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import {useSpring, animated} from 'react-spring';
 import { useScroll } from "react-use-gesture";
 
-
 const movies = [
+    "https://images-na.ssl-images-amazon.com/images/I/71cY3tnGi%2BL._SX425_.jpg",
+    "https://cdn.dribbble.com/users/1195991/screenshots/2951227/narcos.jpg",
+    "https://iamessex.files.wordpress.com/2019/04/umbrella-academy-wide-poster.jpg",
     "https://cdn.onebauer.media/one/media/5d18/823d/2851/e25e/3066/1778/tcTjAGX9YPCMCrnXmbgXKKtECgh.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg",
-    "https://cdn.onebauer.media/one/media/5d18/823d/2851/e25e/3066/1778/tcTjAGX9YPCMCrnXmbgXKKtECgh.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg",
-    "https://cdn.onebauer.media/one/media/5d18/823d/2851/e25e/3066/1778/tcTjAGX9YPCMCrnXmbgXKKtECgh.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg",
-    "https://cdn.onebauer.media/one/media/5d18/823d/2851/e25e/3066/1778/tcTjAGX9YPCMCrnXmbgXKKtECgh.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg",
-    "https://cdn.onebauer.media/one/media/5d18/823d/2851/e25e/3066/1778/tcTjAGX9YPCMCrnXmbgXKKtECgh.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg",
+    "https://occ-0-2430-2433.1.nflxso.net/dnm/api/v6/0DW6CdE4gYtYx8iy3aj8gs9WtXE/AAAABfZPUk0kEnsnPzcCrUy2XZ1r20p5G9aadAQ9wzGMz4GhiTAH-UYg5O4pIFjExOoG9UWlWcTfLdtLb2ZFTD_U9uQ6TUSNBjJubjFmBSMazMrk0KeO4BOWGWBEBdwk.jpg?r=216"
 ];
 
 const App = () => {
